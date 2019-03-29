@@ -14,7 +14,6 @@ h2{
 
 h1 {
   font-size: 55px;
-  color: black;
 }
 
 a {
@@ -30,11 +29,11 @@ li{
 }
 
 .jumbotron {
-  background-image: url("../images/Castle.jpg");
+  background-image: url("../images/BackgroundBanner.jpg");
   background-size: cover;
   background-position: b;
   border-radius: 25px;
-  text-shadow: 4px 4px #99999977;
+  text-shadow: 4px 4px white;
 }
 
 .container {
@@ -47,15 +46,6 @@ li{
   font-size: 15px;
   padding: 0px 10px;
 }
-
-/* .col-md-4 {
-  position: static;
-  background-color: #b3b3b333;
-  min-height: 5px;
-  padding: -15px;
-  width: 100%;
-  border-radius: 15px;
-} */
 
 .sidenav {
   float: left;
@@ -83,6 +73,7 @@ body {
 
 .purpose {
   text-decoration: underline;
+  color: blue;
 }
 
 h3 {
@@ -163,4 +154,8 @@ button {
 
 .matchImage {
   width: 5%;
+}
+
+.thankyou {
+  display: none;
 }

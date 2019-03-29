@@ -45,11 +45,6 @@ function showInfo (location, companysize, portion, knowledge) {
 
 
 $(document).ready(function(){
-  $(".input").keyup(function(){
-          var val1 = +$(".value1").val();
-          var val2 = +$(".value2").val();
-          $("#result").val((val1/val2) * .9);
-    });
   $("form#question").submit(function(event) {
     var location = $("#location").val();
     var companysize = $("#companysize").val();
@@ -58,9 +53,14 @@ $(document).ready(function(){
     var match = showInfo(location, companysize, portion, knowledge);
     var matchName = match[0];
     var matchImage = match[1];
+
+    if($('.input').val() == ''){
+      alert('Input can not be left blank');
+    } else {
       $("#varspot").text("You would be a good fit for " + matchName + "");
       $("#varspot").append("<img src=" + matchImage + ">");
-
+      $("#thanks").text("Information Submitted");
+    }
       event.preventDefault();
-    });
+  });
 });

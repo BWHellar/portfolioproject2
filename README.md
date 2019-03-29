@@ -9,7 +9,7 @@
 ## Description
 
 <<<<<<< HEAD
-This project acts as a showcase of skills acquired during week 2 of Epicodus.  This will utilize Javascript functions and the Jquery library.  In addition to this it will also reiterate the usafe of HTMl and CSS functions to style a page.
+This project acts as a showcase of skills acquired during week 2 of Epicodus.  This will utilize Javascript functions and the Jquery library.  In addition to this it will also reiterate the usage of HTMl and CSS functions to style a page.  This will utilize variables and functions in a clean manner.
 =======
 
 ## Setup/Installation Requirements
