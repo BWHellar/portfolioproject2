@@ -61,6 +61,7 @@ $(document).ready(function(){
       $("#varspot").append("<img src=" + matchImage + ">");
       $("#thanks").text("Information Submitted");
       $('.Calculator')[0].reset();
+      document.getElementById("question").reset();
     }
       event.preventDefault();
   });
