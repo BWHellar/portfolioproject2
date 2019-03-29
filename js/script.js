@@ -60,6 +60,7 @@ $(document).ready(function(){
       $("#varspot").text("You would be a good fit for " + matchName + "");
       $("#varspot").append("<img src=" + matchImage + ">");
       $("#thanks").text("Information Submitted");
+      $('.Calculator')[0].reset();
     }
       event.preventDefault();
   });
