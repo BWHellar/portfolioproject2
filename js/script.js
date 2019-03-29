@@ -1,36 +1,43 @@
-function myFunction() {
-  document.getElementById("infospot").innerHTML = "This will tell you about HTML!";
+function showInfo (favoriteVariation, favoriteRace) {
+  if (favoriteRace === 'Human'){
+    if (favoriteVariation === 'Desert'){
+      match = 'Desert Soldier';
+      matchImage = 'images/DesertHuman.jpg';
+    } else if (favoriteVariation === 'City'){
+      match = 'Urban Soldier';
+      matchImage = 'images/CityHuman.jpg';
+    } else if (favoriteVariation === 'Rural'){
+      match = 'Rural Soldier';
+      matchImage = 'images/RuralHuman.jpg';
+    } else if (favoriteVariation === 'Swamp'){
+      match = 'Swamp Soldier';
+      matchImage = 'images/SwampHuman.jpg';
+    } else if (favoriteVariation === 'Snow'){
+      match ='Snow Soldier';
+      matchImage = 'images/SnowHuman.jpg';
+    }
+  }
+  return [match, matchImage]
 }
-function myFunctionTwo() {
-  document.getElementById("infospot").innerHTML = "This will tell you all about CSS!";
-}
-function myFunctionThree() {
-  document.getElementById("infospot").innerHTML = "This will tell you all about Chocolate!";
-}
-function myFunctionFour() {
-  document.getElementById("infospot").innerHTML = "This will tell you all about Vanilla!";
-}
-function myFunctionFive() {
-  document.getElementById("infospot").innerHTML = "This will tell you all about Rockly Road";
-}
-function myFunctionSix() {
-  document.getElementById("infospot").innerHTML = "This will tell you all about Mint";
-}
-
-
-
 
 
 $(document).ready(function(){
-  $('.dropdown a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
+  $(".input").keyup(function(){
+          var val1 = +$(".value1").val();
+          var val2 = +$(".value2").val();
+          $("#result").val((val1/val2) * .9);
+    });
+  $("form#question").submit(function(event) {
+    alert('hi')
+    var favoriteRace = $("#favoriteRace").val();
+    var favoriteVariation = $("#favoriteVariation").val();
+    var match = showInfo(favoriteRace, favoriteVariation);
+    var matchName = match[0];
+    var matchImage = match[1];
+      $("#racespot").prepend("<h1>Your match is " + matchName + "</h1>");
+      $("#varspot").append("<img src=" + matchImage + ">");
+
+
+    event.preventDefault();
   });
-  $("[name=INPUT1]").change(function(){
-    function getRandomInt(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
 });

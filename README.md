@@ -1,11 +1,11 @@
 <<<<<<< HEAD
-# Second Friday Project
+# Master Framework 1
 
-#### This project will showcase the skills learned during the second week of Epicodus, 3/29/19
+#### This project will provide a framework for future side projects, 3/23/19
 =======
-# Friday Project 2
+# Framework 1
 
-#### This application will showcase the abilities learned during the first 2 weeks of Epicodus.  This will utilize CSS, Bootstrap, HTML, Javascript and jquery.  , 3/29/19
+#### This application will provide a framework for Rows and Columns, 3/23/19
 
 >>>>>>> master
 #### By _**Brendan Hellar**_
