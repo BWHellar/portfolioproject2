@@ -1,3 +1,4 @@
+// Business Logic //
 function showInfo (location, companysize, portion, knowledge) {
   if (location = "Seattle") {
     if ((companysize === 'Small' && portion === 'Back-End')
@@ -43,7 +44,7 @@ function showInfo (location, companysize, portion, knowledge) {
       return [match, matchImage];
     }
 
-
+// Presentation Logic //
 $(document).ready(function(){
   $("form#question").submit(function(event) {
     var location = $("#location").val();
