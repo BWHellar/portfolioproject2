@@ -57,6 +57,7 @@ li{
   background-color: #80bfff77;
   margin: 10px;
   border-radius: 25px;
+  vertical-align: middle;
 }
 
 .panel-title {
