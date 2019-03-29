@@ -14,7 +14,7 @@ This project acts as a showcase of skills acquired during week 2 of Epicodus.  T
 
 ## Setup/Installation Requirements
 
--   Please clone from this repository
+-   Please clone from this repository https://bwhellar.github.io/portfolioproject2/
 -   Click on the link provided
 
 This app requires the internet as it uses HTMl and CSS and Javascript.
