@@ -9,7 +9,7 @@
 ## Description
 
 
-####This project acts as a showcase of skills acquired during week 2 of Epicodus.  This will utilize Javascript functions and the Jquery library.  In addition to this it will also reiterate the usage of HTMl and CSS functions to style a page.  This will utilize variables and functions in a clean manner.  The focus of this week is branching in Javascript, and if/then statements.  This week also focuses on Javascript ordering in terms of business logic and front end logic ordering.
+#### This project acts as a showcase of skills acquired during week 2 of Epicodus.  This will utilize Javascript functions and the Jquery library.  In addition to this it will also reiterate the usage of HTMl and CSS functions to style a page.  This will utilize variables and functions in a clean manner.  The focus of this week is branching in Javascript, and if/then statements.  This week also focuses on Javascript ordering in terms of business logic and front end logic ordering.
 =======
 
 ## Setup/Installation Requirements
